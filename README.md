@@ -8,7 +8,7 @@ Welcome to the **Bandit-VBA-Project**! This repository is dedicated to solving c
 
 To get started with this project, ensure you have:
 
-- Microsoft Excel or any Office application that supports VBA.
+- Microsoft Excel "Desktop"
 - A worksheet setup to track Bandit levels, hashes, and related data.
 - A basic understanding of VBA and how it can be used to automate tasks within Excel.
 
