@@ -1,3 +1,4 @@
+![thumb](https://github.com/user-attachments/assets/fa773aef-382f-4af7-a669-f9717ecf26e2)
 **Another Cyber-Associate | CyberKnol**  
 
 Welcome to **CyberKnol**, where we explore the fascinating world of cybersecurity challenges and solutions! In this playlist, follow a cyber associate as they tackle real-world scenarios and CTF challenges, showcasing skills, tools, and techniques essential for budding cybersecurity enthusiasts.
