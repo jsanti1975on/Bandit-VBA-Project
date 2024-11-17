@@ -1,81 +1,17 @@
-# Bandit Level 3 → Level 4 Solution
+**Another Cyber-Associate | CyberKnol**  
 
-## Objective
-The goal for Bandit Level 3 → Level 4 was to find the password for the next level, which was hidden in a file named `...Hiding-From-You` within the `inhere` directory.
+Welcome to **CyberKnol**, where we explore the fascinating world of cybersecurity challenges and solutions! In this playlist, follow a cyber associate as they tackle real-world scenarios and CTF challenges, showcasing skills, tools, and techniques essential for budding cybersecurity enthusiasts.
 
----
+### Featured Content:
+- **Bandit Walkthroughs**: Step-by-step solutions to OverTheWire Bandit challenges, including navigating the filesystem, uncovering hidden files, and leveraging essential Linux commands.
+- **Problem-Solving Techniques**: Learn how to approach challenges logically, troubleshoot issues, and implement efficient solutions.
+- **Cybersecurity Essentials**: See foundational tools like `ls -la`, `cat`, and SSH in action while uncovering passwords and solving CTF levels.
 
-## What Was Tried and Did Not Work
+### Highlights:
+- **Bandit Level 0 to 1**: A simple introduction to accessing files and retrieving passwords.
+- **Bandit Level 3 to 4**: Advanced techniques to discover hidden files and extract critical information.
+- **Hands-On Skills**: Real-world application of Linux commands, file management, and problem-solving.
 
-### 1. Listing Files with `ls -l`
-```bash
-bandit3@bandit:~$ ls -l
-total 4
-drwxr-xr-x 2 root root 4096 Sep 19 07:08 inhere
-```
+Watch the latest walkthrough here: [Bandit Level 3 → Level 4 Walkthrough](https://youtu.be/mxt4Ey-LVJA?si=VvP3wfE0ksClDUE3)
 
-**Outcome**:  
-This command listed the `inhere` directory but did not reveal any specific files within it. At this point, I had no indication of hidden files.
-
----
-
-### 2. Entering the `inhere` Directory and Using `ls -l`
-```bash
-bandit3@bandit:~/inhere$ ls -l
-total 0
-```
-
-**Outcome**:  
-This command showed no files in the directory, but I suspected there could be hidden files.
-
----
-
-## What Worked
-
-### 1. Listing All Files, Including Hidden Files, with `ls -la`
-```bash
-bandit3@bandit:~/inhere$ ls -la
-total 12
-drwxr-xr-x 2 root    root    4096 Sep 19 07:08 .
-drwxr-xr-x 3 root    root    4096 Sep 19 07:08 ..
--rw-r----- 1 bandit4 bandit3   33 Sep 19 07:08 ...Hiding-From-You
-```
-
-**Outcome**:  
-The `ls -la` command revealed the hidden file `...Hiding-From-You`, which was not visible with previous commands.
-
----
-
-### 2. Reading the Hidden File with `cat`
-```bash
-bandit3@bandit:~/inhere$ cat ./...Hiding-From-You
-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-```
-
-**Outcome**:  
-The `cat` command successfully displayed the password for the next level:  
-`2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ`.
-
----
-
-## Conclusion
-
-To solve Bandit Level 3 → Level 4:
-1. Use `ls -la` to reveal hidden files in the directory.
-2. Use `cat` to read the file and extract the password.
-
-This challenge demonstrated the importance of thoroughly exploring directories using commands like `ls -la`.
-
----
-
-## Key Commands
-- `ls -l`: Lists files but does not show hidden files.
-- `ls -la`: Lists all files, including hidden ones (those prefixed with `.`, like `...Hiding-From-You`).
-- `cat`: Displays the content of files.
-
----
-
-## Password for Level 4:
-```plaintext
-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
-```
+This playlist is perfect for anyone looking to dive into the basics of cybersecurity challenges or refine their problem-solving abilities. Subscribe to **CyberKnol** to keep up with more content, and don’t forget to like, comment, and share your favorite walkthroughs!
