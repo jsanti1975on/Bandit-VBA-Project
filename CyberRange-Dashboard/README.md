@@ -1,3 +1,4 @@
+![desktop-range-app](https://github.com/user-attachments/assets/960ae179-4dea-453d-aa17-eef5f9633dd5)
 # Cyber Range Dashboard: Creating and Testing `CyberRangeFormWithConsole`
 
 ## Overview
