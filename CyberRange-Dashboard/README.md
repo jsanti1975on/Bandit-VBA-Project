@@ -88,6 +88,7 @@ This guide walks you through creating, compiling, and testing a Windows applicat
 1. Compile the `CyberRangeFormWithConsole.c` file:
    ```bash
    x86_64-w64-mingw32-gcc CyberRangeFormWithConsole.c -o CyberRangeFormWithConsole.exe -mwindows
+   x86_64-w64-mingw32-gcc  <filename.c> -o <filename.exe> // This is using Kali Linux Debian based OS
    ```
    - **CyberRangeFormWithConsole.c**: The source file.
    - **-o CyberRangeFormWithConsole.exe**: Specifies the output file name as `CyberRangeFormWithConsole.exe`.
